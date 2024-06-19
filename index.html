@@ -1,17 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  </head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XNIC github Star 导航</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* ...你的 CSS 样式... */
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div class="sticky-header flex justify-between items-center px-4 py-2 bg-white shadow-md">
+    <h1 class="text-2xl font-bold">
+      <a href="/">XNIC github Star 导航</a>
+    </h1>
+    <input id="search" type="text" placeholder="Search repositories..." class="p-2 border rounded w-1/3 mx-auto">
+  </div>
+  <div class="container mx-auto p-4">
+    <div class="flex">
+      <div id="sidebar">
+        <h2 class="text-xl font-bold mb-4">语言分类</h2>
+        <ul id="sidebarLinks">
+          <!-- 语言分类链接将在这里动态生成 -->
+        </ul>
+      </div>
+      <div id="main-content">
+        <div id="categories-container">
+          <!-- 仓库卡片将在这里动态生成 -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="back-to-top">↑</button>
   <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => console.log('Service Worker registered: ', registration))
-          .catch(error => console.error('Service Worker registration failed: ', error));
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('search');
+      const categoriesContainer = document.getElementById('categories-container');
+      const sidebarLinks = document.getElementById('sidebarLinks');
+      const backToTopButton = document.getElementById('back-to-top');
+
+      // 使用 fetch API 获取数据
+      fetch('https://raw.githubusercontent.com/196180/some-stars/main/data.json') 
+        .then(response => response.json())
+        .then(data => {
+          // 生成仓库卡片和侧边栏链接
+          generateContent(data);
+
+          // 搜索功能
+          searchInput.addEventListener('input', function() {
+            const query = this.value.trim().toLowerCase();
+            searchAndDisplay(query, data);
+          });
+        });
+
+      // 生成仓库卡片和侧边栏链接的函数
+      function generateContent(data) {
+        let categoriesHtml = '';
+        let sidebarLinksHtml = '';
+
+        for (const language in data) {
+          categoriesHtml += `
+            <div id="${language}" class="mb-8 category">
+              <h2 class="text-2xl font-bold mb-4">${language} Repositories</h2>
+              <div class="flex flex-wrap justify-center">
+                ${generateRepoCards(data[language])}
+              </div>
+            </div>
+          `;
+          sidebarLinksHtml += `
+            <li class="mb-2"><a href="#${language}" class="text-blue-500 hover:underline">${language}</a></li>
+          `;
+        }
+
+        categoriesContainer.innerHTML = categoriesHtml;
+        sidebarLinks.innerHTML = sidebarLinksHtml;
+      }
+
+      // 生成单个仓库卡片的函数
+      function generateRepoCards(repos) {
+        return repos.map(repo => `
+          <div class="repo-card max-w-sm rounded-2xl overflow-hidden shadow-lg m-4 bg-white transition-transform transform hover:scale-105">
+            <div class="h-48 overflow-hidden flex items-center justify-center mt-4 rounded-t-2xl">
+              <img class="object-contain h-full w-full rounded-t-2xl" src="${repo.owner.avatar_url}" alt="${repo.owner.login}">
+            </div>
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">
+                <a href="${repo.html_url}" class="text-blue-500">${repo.full_name}</a>
+              </div>
+              <p class="text-gray-700 text-base">${truncateDescription(repo.description)}</p>
+            </div>
+            <div class="px-6 pt-4 pb-2">
+              ${repo.topics.map(topic => `<span class="topic inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#${topic}</span>`).join('')}
+            </div>
+            <div class="px-6 pt-4 pb-2">
+              <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Stars: ${repo.stargazers_count}</span>
+              <span class="inline-block bg-green-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Watchers: ${repo.watchers_count}</span>
+            </div>
+          </div>
+        `).join('');
+      }
+
+      // 截断描述文本的函数
+      function truncateDescription(description) {
+        return description && description.length > 200 ? description.slice(0, 200) + '...' : description;
+      }
+
+      // 搜索并显示结果的函数
+      function searchAndDisplay(query, data) {
+        if (query) {
+          const matchedRepos = [];
+          for (const language in data) {
+            matchedRepos.push(...data[language].filter(repo => {
+              return repo.full_name.toLowerCase().includes(query) ||
+                     (repo.description && repo.description.toLowerCase().includes(query)) ||
+                     repo.topics.some(topic => topic.toLowerCase().includes(query));
+            }));
+          }
+          categoriesContainer.innerHTML = `
+            <div class="mb-8">
+              <h2 class="text-2xl font-bold mb-4">Search Results</h2>
+              <div class="flex flex-wrap justify-center">
+                ${generateRepoCards(matchedRepos)}
+              </div>
+            </div>
+          `;
+        } else {
+          generateContent(data);
+        }
+      }
+
+      // 返回顶部按钮
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 200) {
+          backToTopButton.style.display = 'block';
+        } else {
+          backToTopButton.style.display = 'none';
+        }
       });
-    }
+
+      backToTopButton.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
   </script>
-  <script src="script.js"></script> 
 </body>
 </html>
