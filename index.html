@@ -5,8 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>XNIC github Star 导航</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
+   <style>
     /* ...你的 CSS 样式... */
+    .repo-card {
+      flex-basis: calc(33.333% - 2rem); /* 每行3个项目 */
+    }
+
+    @media (max-width: 768px) {
+      .repo-card {
+        flex-basis: calc(50% - 2rem); /* 屏幕小于768px时，每行2个项目 */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .repo-card {
+        flex-basis: 100%; /* 屏幕小于480px时，每行1个项目 */
+      }
+    }
+
+    /* 超出部分显示省略号 */
+    .repo-card .text-gray-700 {
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* 显示3行 */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   </style>
 </head>
 <body class="bg-gray-100">
