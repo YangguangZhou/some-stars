@@ -113,19 +113,6 @@
       width: 300px; 
     }
 
-    /* 隐藏多余标签的样式 */
-    .topics-container.collapsed .topic:nth-child(n + 4) {
-      display: none;
-    }
-    .topics-container .toggle-more {
-      display: none;
-      cursor: pointer;
-      color: blue;
-      text-decoration: underline;
-    }
-    .topics-container.collapsed .toggle-more {
-      display: inline;
-    }
   </style>
 </head>
 <body class="bg-gray-100">
@@ -262,15 +249,6 @@
       });
     });
 
-    // 添加事件监听器以展开/折叠标签
-      categoriesContainer.addEventListener('click', function(event) {
-        if (event.target.classList.contains('toggle-more')) {
-          const topicsContainer = event.target.parentElement;
-          topicsContainer.classList.toggle('collapsed');
-          event.target.textContent = topicsContainer.classList.contains('collapsed') ? '显示更多' : '收起';
-        }
-      });
-    });
   </script>
 </body>
 </html>
