@@ -28,5 +28,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // repoCardsHtml 函数定义
 function repoCardsHtml(repos) {
-  // ... (函数代码，如步骤 1 所示)
+  let html = '';
+  repos.forEach(repo => {
+    html += `
+      <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4">
+        <div class="bg-white rounded-lg shadow-md p-4 h-full flex flex-col">
+          <a href="${repo.url}" target="_blank" class="text-xl font-bold mb-2 hover:underline">${repo.name}</a>
+          <p class="text-gray-600">${repo.description}</p>
+        </div>
+      </div>
+    `;
+  });
+  return html;
 }
