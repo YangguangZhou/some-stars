@@ -49,16 +49,16 @@
       position: fixed; 
       top: 80px; /* 距离顶部 80px，为header留出空间 */
       left: 0; 
-      height: calc(100vh - 80px); /* 高度减去header高度 */
+      height: 100%;
       overflow-y: auto; 
       background-color: tan; 
-      padding: 20px; 
+      padding: 84px 20px 20px; 
       width: 167px; /* 设置侧边栏宽度 */
     } 
 
     #main-content {
       margin-left: 207px; /* 调整此值以匹配侧边栏宽度 */
-      padding-top: 80px; /* 主内容区域顶部留出搜索栏和标题的空间 */
+      padding-top: 84px; /* 主内容区域顶部留出搜索栏和标题的空间 */
     }
     
     .header { 
@@ -74,6 +74,7 @@
       width: 100%;
       z-index: 100; 
       background-color: tan;
+      padding: 4px 12px;
     }
 
     .header h1 {
