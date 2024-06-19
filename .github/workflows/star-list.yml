@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: some generator
-        uses: simonecorsi/mawesome@v2.2.0  # 使用最新版本
+        uses: simonecorsi/mawesome@latest  # 使用最新版本
         with:
           api-token: ${{ secrets.PERSONAL_TOKEN }}
           github-email: ${{ secrets.USER_EMAIL }}
