@@ -45,54 +45,51 @@
       cursor: pointer;
     }
     
-#sidebar {
-position: fixed; /* 固定侧边栏 /
-top: 0; / 距离顶部 0px /
-left: 0; / 距离左侧 0px /
-height: 100vh; / 设置高度为视窗高度 /
-overflow-y: auto; / 允许内容在侧边栏内部滚动 /
-background-color: tan; / 设置褐色背景 /
-padding: 20px; / 添加内边距 */
-}
-
-/* 为主内容区域添加左侧边距 */
-#main-content {
-  margin-left: 250px; /* 调整此值以匹配侧边栏宽度 */
-}
+    }
     
+    #sidebar {
+      position: fixed; 
+      top: 80px; /* 距离顶部 80px，为header留出空间 */
+      left: 0; 
+      height: calc(100vh - 80px); /* 高度减去header高度 */
+      overflow-y: auto; 
+      background-color: tan; 
+      padding: 20px; 
+      width: 250px; /* 设置侧边栏宽度 */
+    }
 
-#main-content {
-  margin-left: 280px; 
-  padding-top: 80px; /* 主内容区域顶部留出搜索栏和标题的空间 */
-}
+    #main-content {
+      margin-left: 280px; /* 调整此值以匹配侧边栏宽度 */
+      padding-top: 80px; /* 主内容区域顶部留出搜索栏和标题的空间 */
+    }
     
-.header { 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4px 12px; 
-  background-color: white; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100; 
-}
+    .header { 
+      display: flex;
+      justify-content: space-between; /* 将标题和搜索框左右分布 */
+      align-items: center;
+      padding: 4px 12px; 
+      background-color: white; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 100; 
+    }
 
-.header h1 {
-  margin: 0; 
-}
+    .header h1 {
+      margin: 0; 
+    }
 
-/* 将标题和搜索栏水平居中 */
-.header > * {
-  margin: 0 auto; 
-}
+    /* 将搜索栏放置在最右侧 */
+    .search-container {
+      margin-left: auto; /* 将 .search-container 推到右侧 */
+    }
 
-/* 调整搜索栏宽度 */
-#search {
-width: 300px; 
-}
+    /* 调整搜索栏宽度 */
+    #search {
+      width: 300px; 
+    }
   </style>
 </head>
 <body class="bg-gray-100">
