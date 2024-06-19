@@ -33,19 +33,6 @@
     height: 66vh; /* 设置高度为屏幕高度的1/3 */
     overflow: hidden; /* 隐藏超出部分 */
   }
-  
-    /* 调整卡片容器，使其每行显示三个卡片 */
-    #categories-container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    /* 调整卡片宽度，使其适应每行三个 */
-    .repo-card {
-      @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
-      flex-basis: calc(33.333% - 2rem); /* 每行三个卡片，减去间距 */
-      margin: 1rem; /* 设置卡片间距 */
-    }
 
     @media (max-width: 768px) {
       .repo-card {
