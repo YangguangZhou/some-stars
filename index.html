@@ -65,13 +65,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 12px; /* 添加内边距 */
-  background-color: white; /* 设置背景颜色 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加阴影 */
+  padding: 4px 12px; 
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed; /* 固定头部 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100; /* 确保头部位于其他元素上方 */
 }
 
 .header h1 {
-margin: 0; /* 去除默认边距 */
+  margin: 0;
+}
+
+/* 搜索栏样式 */
+#search {
+  width: 300px; /* 调整搜索栏宽度 */
+}
   </style>
 </head>
 <body class="bg-gray-100">
