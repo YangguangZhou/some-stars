@@ -140,7 +140,7 @@ function generateHTML(data) {
         </div>
       </div>
       <button id="back-to-top">↑</button>
-      <s1cript1>
+      <script>
         document.addEventListener('DOMContentLoaded', function() {
           const searchInput = document.getElementById('search');
           const categoriesContainer = document.getElementById('categories-container');
