@@ -224,7 +224,7 @@ categoriesContainer.innerHTML = categoriesHtml;
             }
           });
         });
-      </s1cript1>
+      </script>
     </body>
     </html>
   `;
