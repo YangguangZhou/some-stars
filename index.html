@@ -46,13 +46,14 @@
     }
     
 #sidebar {
-  position: fixed; /* 固定侧边栏 */
-  top: 0; /* 距离顶部 0px */
+  position: sticky; /* 固定侧边栏 */
+  top: 64px; /* 距离顶部 0px */
   left: 0; /* 距离左侧 0px */
-  height: 100vh; /* 设置高度为视窗高度 */
+  height: calc(100vh - 64px); /* 设置高度为视窗高度 */
   overflow-y: auto; /* 允许内容在侧边栏内部滚动 */
   background-color: tan; /* 设置褐色背景 */
   padding: 20px; /* 添加内边距 */
+  z-index: 99;
 }
 
 /* 为主内容区域添加左侧边距 */
