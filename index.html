@@ -47,20 +47,19 @@
     
     #sidebar {
       position: fixed; 
-      top: 80px; /* 距离顶部 80px，为header留出空间 */
+      top: 0; /* 从页面顶部开始 */
       left: 0; 
       height: 100%;
       overflow-y: auto; 
       background-color: tan; 
-      padding: 84px 20px 20px; 
+      padding: 20px; /* 移除顶部填充 */
       width: 167px; /* 设置侧边栏宽度 */
-    } 
+   } 
 
     #main-content {
-      margin-left: 207px; /* 调整此值以匹配侧边栏宽度 */
-      padding-top: 84px; /* 主内容区域顶部留出搜索栏和标题的空间 */
-    }
-    
+      margin-left: 167px; /* 调整此值以匹配侧边栏宽度 */
+      padding-top: 0; /* 移除顶部边距 */
+   }
     .header { 
       display: flex;
       justify-content: space-between; /* 将标题和搜索框左右分布 */
