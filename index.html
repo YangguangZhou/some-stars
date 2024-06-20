@@ -19,6 +19,11 @@
       @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
     }
 
+    .repo-card .px-6.pt-4.pb-2 {
+      display: flex; /* 将父元素改为 flex 布局 */
+      flex-wrap: wrap; /* 允许标签换行 */
+    }
+    
     /* 标签容器样式 */
     .topics-container {
       display: -webkit-box; /* 启用 WebKit 特性 */
