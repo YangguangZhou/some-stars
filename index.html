@@ -24,18 +24,16 @@
     
 /* 标签容器样式 */
 .topics-container {
-  display: flex; /* 将容器改为块级元素 */
+  display: flex; /* 使用 flex 布局 */
+  flex-wrap: wrap; /* 允许标签换行 */
   max-height: 3em; /* 设置最大高度为三行 */
   line-height: 1em; /* 设置行高 */
   overflow: hidden; 
-}
-
-.topics-container::after {
-  content: "...";
-  display: block;
-  height: 1em;
-  text-align: right;
-  margin-top: -1em; 
+  /* 使用 line-clamp 限制显示行数 */
+  display: -webkit-box; /* 启用 WebKit 特性 */
+  -webkit-line-clamp: 3; /* 限制显示三行 */
+  -webkit-box-orient: vertical; /* 设置垂直方向 */
+  text-overflow: ellipsis; /*  在截断处显示省略号 */
 }
 
 /* 使用 line-clamp 限制显示行数 */
