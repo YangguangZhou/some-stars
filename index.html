@@ -25,7 +25,7 @@
     /*  每个标签的样式 */
   .topic {
     @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
-    flex: 0 0 calc(33.333% - 1rem); /* 关键: 设置标签宽度为三分之一，并减去间距 */
+    flex: 0 1 auto; /* 关键: 设置标签宽度为自适应 */
     box-sizing: border-box; /* 包含边框和内边距 */
   }
   .repo-card {
@@ -113,12 +113,11 @@
       width: 300px; 
     }
 
-     /* 将 Star 和 Watcher 数量放在同一行 */
+    /* 将 Star 和 Watcher 数量放在同一行 */
     .repo-card .repo-stats {
       display: flex;
       justify-content: space-between; /* 将 Star 和 Watcher 数量左右分布 */
       align-items: center;
-    }
   </style>
 </head>
 <body class="bg-gray-100">
