@@ -6,82 +6,80 @@
   <title>XJFKKK Star 导航</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    /* ...你的 CSS 样式... */
-  body {
-  background-image: url('https://tuapi.eees.cc/api.php?category=dongman&type=302');
-  background-size: 100% 100%; /* 修改为 100% 100% */
-  background-position: center;
-  background-attachment: fixed;
-  }
-  .repo-card {
-    @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
-  }
-
-  .repo-card .px-6.pt-4.pb-2 {
-  display: flex; /* 将父元素改为 flex 布局 */
-  flex-wrap: wrap; /* 允许标签换行 */
-}
+    /* 其他样式 */
     
-/* 标签容器样式 */
-.topics-container {
-  display: block; /* 使用 block 布局 */
-  max-height: 3em; /* 设置最大高度为三行 */
-  line-height: 1em; /* 设置行高 */
-  overflow: hidden; 
-  text-overflow: ellipsis; /*  在截断处显示省略号 */
-}
+    body {
+      background-image: url('https://tuapi.eees.cc/api.php?category=dongman&type=302');
+      background-size: 100% 100%;
+      background-position: center;
+      background-attachment: fixed;
+    }
 
-  /*  每个标签的样式 */
-  .topic {
-    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
-  }
-  .repo-card {
-    flex-basis: calc(33.333% - 2rem); /* 每行3个项目 */
-    height: 66vh; /* 设置高度为屏幕高度的1/3 */
-    overflow: hidden; /* 隐藏超出部分 */
-  }
+    .repo-card {
+      @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
+    }
 
-  /*  每个标签的样式 */
-  .topic {
-    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
-    flex: 0 1 auto; /* 关键: 设置标签宽度为自适应 */
-    box-sizing: border-box; /* 包含边框和内边距 */
-  }
-  .repo-card {
-    flex-basis: calc(33.333% - 2rem); /* 每行3个项目 */
-    height: 66vh; /* 设置高度为屏幕高度的1/3 */
-    overflow: hidden; /* 隐藏超出部分 */
-  }
+    /* 标签容器样式 */
+    .topics-container {
+      display: -webkit-box; /* 启用 WebKit 特性 */
+      -webkit-box-orient: vertical; /* 设置垂直方向 */
+      -webkit-line-clamp: 3; /* 限制显示三行 */
+      overflow: hidden; /* 隐藏溢出内容 */
+      position: relative; /* 使伪元素相对于容器定位 */
+      max-height: 4.5em; /* 三行高度，根据实际情况调整 */
+      line-height: 1.5em; /* 行高，根据实际情况调整 */
+      text-overflow: ellipsis; /*  在截断处显示省略号 */
+    }
+
+    /* 伪元素样式 */
+    .topics-container::after { 
+      content: "..."; 
+      position: absolute; /* 绝对定位 */
+      bottom: 0; /* 与容器底部对齐 */
+      right: 0; /* 与容器右侧对齐 */
+      padding-left: 0.25rem; /* 添加左边距 */
+      background-color: white; /* 背景色，与容器背景色相同 */
+    }
+
+    .topic {
+      @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
+      flex: 0 1 auto;
+      box-sizing: border-box;
+    }
+
+    .repo-card {
+      flex-basis: calc(33.333% - 2rem);
+      height: 66vh;
+      overflow: hidden;
+    }
 
     @media (max-width: 768px) {
       .repo-card {
-        flex-basis: calc(50% - 2rem); /* 屏幕小于768px时，每行2个项目 */
+        flex-basis: calc(50% - 2rem);
       }
     }
 
     @media (max-width: 480px) {
       .repo-card {
-        flex-basis: 100%; /* 屏幕小于480px时，每行1个项目 */
+        flex-basis: 100%;
       }
     }
 
-    /* 超出部分显示省略号 */
     .repo-card .text-gray-700 {
       display: -webkit-box;
-      -webkit-line-clamp: 3; /* 显示3行 */
+      -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
-    /* 返回顶部按钮样式 */
     #back-to-top {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      display: none; /* 默认隐藏 */
+      display: none;
       padding: 10px 15px;
-      background-color: tan; /* 蓝色背景 */
+      background-color: tan;
       color: white;
       border-radius: 5px;
       cursor: pointer;
@@ -89,22 +87,22 @@
     
     #sidebar {
       position: fixed; 
-      top: 0; /* 从页面顶部开始 */
+      top: 0; 
       left: 0; 
       height: 100%;
       overflow-y: auto; 
       background-color: tan; 
-      padding: 20px; /* 移除顶部填充 */
-      width: 167px; /* 设置侧边栏宽度 */
+      padding: 20px;
+      width: 167px;
    } 
 
     #main-content {
-      margin-left: 167px; /* 调整此值以匹配侧边栏宽度 */
-      padding-top: 0; /* 移除顶部边距 */
+      margin-left: 167px;
+      padding-top: 0;
    }
     .header { 
       display: flex;
-      justify-content: space-between; /* 将标题和搜索框左右分布 */
+      justify-content: space-between;
       align-items: center;
       padding: 4px 12px; 
       background-color: white; 
@@ -122,21 +120,19 @@
       margin: 0; 
     }
 
-    /* 将搜索栏放置在最右侧 */
     .search-container {
-      margin-left: auto; /* 将 .search-container 推到右侧 */
+      margin-left: auto;
     }
 
-    /* 调整搜索栏宽度 */
     #search {
       width: 300px; 
     }
 
-    /* 将 Star 和 Watcher 数量放在同一行 */
     .repo-card .repo-stats {
       display: flex;
-      justify-content: space-between; /* 将 Star 和 Watcher 数量左右分布 */
+      justify-content: space-between;
       align-items: center;
+    }
   </style>
 </head>
 <body class="bg-gray-100">
@@ -169,21 +165,16 @@
       const sidebarLinks = document.getElementById('sidebarLinks');
       const backToTopButton = document.getElementById('back-to-top');
 
-      // 使用 fetch API 获取数据
       fetch('https://raw.githubusercontent.com/196180/some-stars/main/data.json') 
         .then(response => response.json())
         .then(data => {
-          // 生成仓库卡片和侧边栏链接
           generateContent(data);
-
-          // 搜索功能
           searchInput.addEventListener('input', function() {
             const query = this.value.trim().toLowerCase();
             searchAndDisplay(query, data);
           });
         });
 
-      // 生成仓库卡片和侧边栏链接的函数
       function generateContent(data) {
         let categoriesHtml = '';
         let sidebarLinksHtml = '';
@@ -206,7 +197,6 @@
         sidebarLinks.innerHTML = sidebarLinksHtml;
       }
 
-      // 生成单个仓库卡片的函数
       function generateRepoCards(repos) {
         return repos.map(repo => `
           <div class="repo-card max-w-sm rounded-2xl overflow-hidden shadow-lg m-4 bg-white transition-transform transform hover:scale-105">
@@ -219,7 +209,7 @@
               </div>
               <p class="text-gray-700 text-base">${truncateDescription(repo.description)}</p>
             </div>
-            <div class="px-6 pt-4 pb-2">
+            <div class="px-6 pt-4 pb-2 topics-container">
               ${repo.topics.map(topic => `<span class="topic inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#${topic}</span>`).join('')}
             </div>
             <div class="px-6 pt-4 pb-2">
@@ -230,21 +220,10 @@
         `).join('');
       }
 
-       // 工具函数：将数组分成指定大小的块
-        function chunkArray(array, chunkSize) {
-          const chunkedArray = [];
-          for (let i = 0; i < array.length; i += chunkSize) {
-            chunkedArray.push(array.slice(i, i + chunkSize));
-          }
-          return chunkedArray;
-       }
-
-      // 截断描述文本的函数
       function truncateDescription(description) {
         return description && description.length > 200 ? description.slice(0, 200) + '...' : description;
       }
 
-      // 搜索并显示结果的函数
       function searchAndDisplay(query, data) {
         if (query) {
           const matchedRepos = [];
@@ -268,7 +247,6 @@
         }
       }
 
-      // 返回顶部按钮
       window.addEventListener('scroll', function() {
         if (window.scrollY > 200) {
           backToTopButton.style.display = 'block';
@@ -281,7 +259,6 @@
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     });
-
   </script>
 </body>
 </html>
