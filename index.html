@@ -6,120 +6,63 @@
   <title>XJFKKK Star 导航</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    /* ...你的 CSS 样式... */
-  body {
-  background-image: url('https://tuapi.eees.cc/api.php?category=dongman&type=302');
-  background-size: 100% 100%; /* 修改为 100% 100% */
-  background-position: center;
-  background-attachment: fixed;
-  }
-  .repo-card {
-    @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
-  }
-
-  .repo-card .px-6.pt-4.pb-2 {
-  display: flex; /* 将父元素改为 flex 布局 */
-  flex-wrap: wrap; /* 允许标签换行 */
-}
-    
-/* 标签容器样式 */
-.topics-container {
-  display: flex; /* 将容器改为块级元素 */
-  max-height: 3em; /* 设置最大高度为三行 */
-  line-height: 1em; /* 设置行高 */
-  overflow: hidden; 
-}
-
-.topics-container::after {
-  content: "...";
-  display: block;
-  height: 1em;
-  text-align: right;
-  margin-top: -1em; 
-}
-
-/* 使用 line-clamp 限制显示行数 */
-.topics-container {
-  display: -webkit-box; /* 启用 WebKit 特性 */
-  -webkit-line-clamp: 3; /* 限制显示三行 */
-  -webkit-box-orient: vertical; /* 设置垂直方向 */
-  overflow: hidden; /* 隐藏溢出内容 */
-  text-overflow: ellipsis; /*  在截断处显示省略号 */
-}
-
-.topic-container::after { 
-  /* 创建一个伪元素来添加省略号 */
-  content: "..."; 
-  display: block;
-  height: 1em; /*  设置省略号所在行的高度 */
-  text-align: right; /*  将省略号靠右对齐 */
-  margin-top: -1em; /*  将省略号向上移动一行，覆盖最后一行 */
-}
-
-  /*  每个标签的样式 */
-  .topic {
-    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
-    flex: 0 1 auto; /* 关键: 设置标签宽度为自适应 */
-    box-sizing: border-box; /* 包含边框和内边距 */
-  }
-  .repo-card {
-    flex-basis: calc(33.333% - 2rem); /* 每行3个项目 */
-    height: 66vh; /* 设置高度为屏幕高度的1/3 */
-    overflow: hidden; /* 隐藏超出部分 */
-  }
-
+    body {
+      background-image: url('https://tuapi.eees.cc/api.php?category=dongman&type=302');
+      background-size: 100% 100%;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    .repo-card {
+      @apply flex-grow flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 2xl:w-1/5 p-4; 
+      flex-basis: calc(33.333% - 2rem); 
+      height: 66vh; 
+      overflow: hidden; 
+    }
     @media (max-width: 768px) {
       .repo-card {
-        flex-basis: calc(50% - 2rem); /* 屏幕小于768px时，每行2个项目 */
+        flex-basis: calc(50% - 2rem);
       }
     }
-
     @media (max-width: 480px) {
       .repo-card {
-        flex-basis: 100%; /* 屏幕小于480px时，每行1个项目 */
+        flex-basis: 100%;
       }
     }
-
-    /* 超出部分显示省略号 */
     .repo-card .text-gray-700 {
       display: -webkit-box;
-      -webkit-line-clamp: 3; /* 显示3行 */
+      -webkit-line-clamp: 3; 
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
     }
-
-    /* 返回顶部按钮样式 */
     #back-to-top {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      display: none; /* 默认隐藏 */
+      display: none; 
       padding: 10px 15px;
-      background-color: tan; /* 蓝色背景 */
+      background-color: tan;
       color: white;
       border-radius: 5px;
       cursor: pointer;
     }
-    
     #sidebar {
       position: fixed; 
-      top: 0; /* 从页面顶部开始 */
+      top: 0; 
       left: 0; 
       height: 100%;
       overflow-y: auto; 
       background-color: tan; 
-      padding: 20px; /* 移除顶部填充 */
-      width: 167px; /* 设置侧边栏宽度 */
-   } 
-
+      padding: 20px; 
+      width: 167px; 
+    } 
     #main-content {
-      margin-left: 167px; /* 调整此值以匹配侧边栏宽度 */
-      padding-top: 0; /* 移除顶部边距 */
-   }
+      margin-left: 167px;
+      padding-top: 0; 
+    }
     .header { 
       display: flex;
-      justify-content: space-between; /* 将标题和搜索框左右分布 */
+      justify-content: space-between;
       align-items: center;
       padding: 4px 12px; 
       background-color: white; 
@@ -132,26 +75,55 @@
       background-color: tan;
       padding: 4px 12px;
     }
-
     .header h1 {
       margin: 0; 
     }
-
-    /* 将搜索栏放置在最右侧 */
     .search-container {
-      margin-left: auto; /* 将 .search-container 推到右侧 */
+      margin-left: auto;
     }
-
-    /* 调整搜索栏宽度 */
     #search {
       width: 300px; 
     }
-
-    /* 将 Star 和 Watcher 数量放在同一行 */
+    .repo-card .topics-container {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      position: relative;
+      max-height: calc(3 * 1.5rem); /* 假设每行的高度是1.5rem */
+    }
+    .repo-card .topics-container::after {
+      content: '...';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: white;
+      padding-left: 0.25rem;
+    }
+    .repo-card .topic {
+      @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
+      flex: 0 1 auto;
+      box-sizing: border-box; 
+    }
     .repo-card .repo-stats {
       display: flex;
-      justify-content: space-between; /* 将 Star 和 Watcher 数量左右分布 */
+      justify-content: space-between; 
       align-items: center;
+      padding: 6px;
+      background-color: #f9fafb; 
+      border-radius: 0.5rem;
+    }
+    .repo-stats .stat-item {
+      display: inline-block;
+      background-color: inherit;
+      border-radius: 0.25rem;
+      padding: 3px 6px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
   </style>
 </head>
 <body class="bg-gray-100">
