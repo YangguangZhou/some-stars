@@ -185,10 +185,6 @@
       // 生成单个仓库卡片的函数
       function generateRepoCards(repos) {
         return repos.map(repo => `
-          // 将主题标签分成每行3个
-          const chunkedTopics = chunkArray(repo.topics, 3);
-
-          return `
           <div class="repo-card max-w-sm rounded-2xl overflow-hidden shadow-lg m-4 bg-white transition-transform transform hover:scale-105">
             <div class="h-48 overflow-hidden flex items-center justify-center mt-4 rounded-t-2xl">
               <img class="object-contain h-full w-full rounded-t-2xl" src="${repo.owner.avatar_url}" alt="${repo.owner.login}">
@@ -200,9 +196,7 @@
               <p class="text-gray-700 text-base">${truncateDescription(repo.description)}</p>
             </div>
             <div class="px-6 pt-4 pb-2">
-            ${chunkedTopics.map(topicsRow => `
-            <div class="flex flex-wrap">
-              ${topicsRow.map(topic => `<span class="topic inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#${topic}</span>`).join('')}
+              ${repo.topics.map(topic => `<span class="topic inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#${topic}</span>`).join('')}
             </div>
             <div class="px-6 pt-4 pb-2">
               <span class="inline-block bg-blue-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Stars: ${repo.stargazers_count}</span>
