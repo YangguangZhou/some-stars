@@ -21,18 +21,21 @@
   display: flex; /* 将父元素改为 flex 布局 */
   flex-wrap: wrap; /* 允许标签换行 */
 }
-  /* 标签容器样式 */
-  .topics-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-.topic-container {
-  display: flex;
-  flex-wrap: wrap;
-  max-height: 3em;
+    
+/* 标签容器样式 */
+.topics-container {
+  display: block; /* 将容器改为块级元素 */
+  max-height: 3em; /* 设置最大高度为三行 */
+  line-height: 1em; /* 设置行高 */
   overflow: hidden; 
-  line-height: 1em; /*  设置行高，确保三行高度一致 */
+}
+
+.topics-container::after {
+  content: "...";
+  display: block;
+  height: 1em;
+  text-align: right;
+  margin-top: -1em; 
 }
 
 .topic-container::after { 
