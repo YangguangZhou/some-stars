@@ -24,35 +24,22 @@
     
 /* 标签容器样式 */
 .topics-container {
-  display: flex; /* 使用 flex 布局 */
-  flex-wrap: wrap; /* 允许标签换行 */
+  display: block; /* 使用 block 布局 */
   max-height: 3em; /* 设置最大高度为三行 */
   line-height: 1em; /* 设置行高 */
   overflow: hidden; 
-  /* 使用 line-clamp 限制显示行数 */
-  display: -webkit-box; /* 启用 WebKit 特性 */
-  -webkit-line-clamp: 3; /* 限制显示三行 */
-  -webkit-box-orient: vertical; /* 设置垂直方向 */
   text-overflow: ellipsis; /*  在截断处显示省略号 */
 }
 
-/* 使用 line-clamp 限制显示行数 */
-.topics-container {
-  display: -webkit-box; /* 启用 WebKit 特性 */
-  -webkit-line-clamp: 3; /* 限制显示三行 */
-  -webkit-box-orient: vertical; /* 设置垂直方向 */
-  overflow: hidden; /* 隐藏溢出内容 */
-  text-overflow: ellipsis; /*  在截断处显示省略号 */
-}
-
-.topic-container::after { 
-  /* 创建一个伪元素来添加省略号 */
-  content: "..."; 
-  display: block;
-  height: 1em; /*  设置省略号所在行的高度 */
-  text-align: right; /*  将省略号靠右对齐 */
-  margin-top: -1em; /*  将省略号向上移动一行，覆盖最后一行 */
-}
+  /*  每个标签的样式 */
+  .topic {
+    @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2;
+  }
+  .repo-card {
+    flex-basis: calc(33.333% - 2rem); /* 每行3个项目 */
+    height: 66vh; /* 设置高度为屏幕高度的1/3 */
+    overflow: hidden; /* 隐藏超出部分 */
+  }
 
   /*  每个标签的样式 */
   .topic {
