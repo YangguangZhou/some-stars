@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [Java](#java)
 *   [CSS](#css)
 *   [Vue](#vue)
 *   [PHP](#php)
@@ -23,6 +24,10 @@
 *   [C#](#c)
 *   [Shell](#shell)
 *   [Prolog](#prolog)
+
+## Java
+
+*   [halo-dev/halo](https://github.com/halo-dev/halo) - 强大易用的开源建站工具。
 
 ## CSS
 
