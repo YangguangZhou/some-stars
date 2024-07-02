@@ -8,10 +8,12 @@
 
 ## Table of Contents
 
+*   [C](#c)
+*   [Visual Basic .NET](#visual-basic-net)
 *   [Kotlin](#kotlin)
-*   [C#](#c)
+*   [C#](#c-1)
 *   [JavaScript](#javascript)
-*   [C++](#c-1)
+*   [C++](#c-2)
 *   [Go](#go)
 *   [PHP](#php)
 *   [miscellaneous](#miscellaneous)
@@ -27,6 +29,14 @@
 *   [JSON](#json)
 *   [Batchfile](#batchfile)
 *   [Prolog](#prolog)
+
+## C
+
+*   [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
+
+## Visual Basic .NET
+
+*   [zhaoruheng/Word-Macro](https://github.com/zhaoruheng/Word-Macro) - 一个可以实现仿真手写的Word宏，支持随机修改字号，行间距，字体，字间距
 
 ## Kotlin
 
