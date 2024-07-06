@@ -8,13 +8,13 @@
 
 ## Table of Contents
 
+*   [Rust](#rust)
 *   [Makefile](#makefile)
 *   [Go](#go)
 *   [Python](#python)
 *   [TypeScript](#typescript)
 *   [C#](#c)
 *   [JavaScript](#javascript)
-*   [Rust](#rust)
 *   [HTML](#html)
 *   [PHP](#php)
 *   [Ruby](#ruby)
@@ -31,6 +31,12 @@
 *   [Svelte](#svelte)
 *   [JSON](#json)
 *   [Batchfile](#batchfile)
+
+## Rust
+
+*   [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
+
+*   [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 
 ## Makefile
 
@@ -54,7 +60,7 @@
 
 *   [aurora-develop/aurora](https://github.com/aurora-develop/aurora) - free
 
-*   [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) - 基于One API的二次开发版本，支持Midjourney，仅供个人管理渠道使用，请勿用于商业API分发！
+*   [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持Midjourney Proxy、Suno、Rerank，兼容易支付协议，仅供个人或者企业内部管理与分发渠道使用，请勿用于商业用途，本项目基于One API二次开发。
 
 *   [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) - 多播放源自动采集在线影视网站 golang vue
 
@@ -155,12 +161,6 @@
 *   [xiaolinshao/linshao](https://github.com/xiaolinshao/linshao) - dinyue
 
 *   [songquanpeng/one-api](https://github.com/songquanpeng/one-api) - OpenAI 接口管理 & 分发系统，支持 Azure、Anthropic Claude、Google PaLM 2 & Gemini、智谱 ChatGLM、百度文心一言、讯飞星火认知、阿里通义千问、360 智脑以及腾讯混元，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用. OpenAI key management & redistribution system, using a single API for all LLMs, and features an English UI.
-
-*   [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - Docker container for managing Nginx proxy hosts with a simple, powerful interface
-
-## Rust
-
-*   [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 
 ## HTML
 
