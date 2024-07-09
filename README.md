@@ -8,18 +8,19 @@
 
 ## Table of Contents
 
+*   [Dockerfile](#dockerfile)
+*   [C](#c)
 *   [TypeScript](#typescript)
 *   [Vue](#vue)
 *   [Go](#go)
 *   [Rust](#rust)
 *   [Makefile](#makefile)
 *   [Python](#python)
-*   [C#](#c)
+*   [C#](#c-1)
 *   [JavaScript](#javascript)
 *   [HTML](#html)
 *   [PHP](#php)
 *   [Ruby](#ruby)
-*   [C](#c-1)
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Kotlin](#kotlin)
 *   [C++](#c-2)
@@ -31,6 +32,16 @@
 *   [Svelte](#svelte)
 *   [JSON](#json)
 *   [Batchfile](#batchfile)
+
+## Dockerfile
+
+*   [V-Official-233/halo-PaaS](https://github.com/V-Official-233/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
+
+## C
+
+*   [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
+
+*   [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
 
 ## TypeScript
 
@@ -109,8 +120,6 @@
 *   [Calcium-Ion/new-api](https://github.com/Calcium-Ion/new-api) - AI模型接口管理与分发系统，支持将多种大模型转为OpenAI格式调用、支持Midjourney Proxy、Suno、Rerank，兼容易支付协议，仅供个人或者企业内部管理与分发渠道使用，请勿用于商业用途，本项目基于One API二次开发。
 
 *   [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) - 多播放源自动采集在线影视网站 golang vue
-
-*   [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) - 🔥🔥🔥 Web-based linux server management control panel. / 现代化、开源的 Linux 服务器运维管理面板。
 
 ## Rust
 
@@ -216,15 +225,9 @@
 
 *   [netcccyun/dnsmgr](https://github.com/netcccyun/dnsmgr) - 彩虹聚合DNS管理系统
 
-*   [magicblack/maccms10](https://github.com/magicblack/maccms10) - 苹果cms官网,苹果cmsv10,maccmsv10,麦克cms,开源cms,内容管理系统,视频分享程序,分集剧情程序,网址导航程序,文章程序,漫画程序,图片程序
-
 ## Ruby
 
 *   [discourse/discourse](https://github.com/discourse/discourse) - A platform for community discussion. Free, open, simple.
-
-## C
-
-*   [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
 
 ## Visual Basic .NET
 
