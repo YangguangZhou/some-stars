@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [Shell](#shell)
 *   [TypeScript](#typescript)
 *   [Batchfile](#batchfile)
 *   [MATLAB](#matlab)
@@ -27,12 +28,17 @@
 *   [Kotlin](#kotlin)
 *   [C++](#c-2)
 *   [miscellaneous](#miscellaneous)
-*   [Shell](#shell)
 *   [Java](#java)
 *   [Blade](#blade)
 *   [CSS](#css)
 *   [Svelte](#svelte)
 *   [JSON](#json)
+
+## Shell
+
+*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## TypeScript
 
@@ -196,8 +202,6 @@
 
 *   [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) - 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
 
-*   [xiaolinshao/linshao](https://github.com/xiaolinshao/linshao) - dinyue
-
 ## HTML
 
 *   [GetPublii/Publii](https://github.com/GetPublii/Publii) - The most intuitive Static Site CMS designed for SEO-optimized and privacy-focused websites.
@@ -257,10 +261,6 @@
 *   [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate) - 沉浸式双语网页翻译扩展 , 支持输入框翻译， 鼠标悬停翻译， PDF, Epub, 字幕文件, TXT 文件翻译 - Immersive Dual Web Page Translation Extension
 
 *   [Delppine1024/TGreen](https://github.com/Delppine1024/TGreen) - Some files work well on T v1.1 (The latest support v1.8.10/1.8.3-dev), Powered by TC
-
-## Shell
-
-*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## Java
 
