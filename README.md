@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [Shell](#shell)
 *   [JavaScript](#javascript)
 *   [Dart](#dart)
 *   [TypeScript](#typescript)
@@ -17,7 +18,6 @@
 *   [C++](#c)
 *   [Stylus](#stylus)
 *   [Python](#python)
-*   [Shell](#shell)
 *   [Batchfile](#batchfile)
 *   [MATLAB](#matlab)
 *   [Go](#go)
@@ -35,6 +35,14 @@
 *   [CSS](#css)
 *   [Svelte](#svelte)
 *   [JSON](#json)
+
+## Shell
+
+*   [wy580477/Alist-on-Glitch](https://github.com/wy580477/Alist-on-Glitch) - 在 Glitch 免费服务上部署 Alist
+
+*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## JavaScript
 
@@ -116,8 +124,6 @@
 
 *   [Kuingsmile/word-GPT-Plus](https://github.com/Kuingsmile/word-GPT-Plus) - Word GPT Plus is a word add-in which integrates the chatGPT model into Microsoft Word. Both official and web api is supported.
 
-*   [lyc8503/UptimeFlare](https://github.com/lyc8503/UptimeFlare) - ✔ Free and serverless uptime monitoring / status page on Cloudflare Workers, with Geo-specific checks
-
 ## PHP
 
 *   [typecho/typecho](https://github.com/typecho/typecho) - A PHP Blogging Platform. Simple and Powerful.
@@ -185,12 +191,6 @@
 *   [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 
 *   [gacjie/cf2dns](https://github.com/gacjie/cf2dns) - cf2dns宝塔插件版
-
-## Shell
-
-*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
-
-*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## Batchfile
 
