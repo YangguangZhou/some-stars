@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [CSS](#css)
 *   [Shell](#shell)
 *   [JavaScript](#javascript)
 *   [Dart](#dart)
@@ -32,9 +33,14 @@
 *   [Kotlin](#kotlin)
 *   [miscellaneous](#miscellaneous)
 *   [Blade](#blade)
-*   [CSS](#css)
 *   [Svelte](#svelte)
 *   [JSON](#json)
+
+## CSS
+
+*   [Pintree-io/pintree](https://github.com/Pintree-io/pintree) - An intuitive tool for managing and exporting your local bookmarks into a shareable website.
+
+*   [LIlGG/halo-theme-sakura](https://github.com/LIlGG/halo-theme-sakura) - Halo 版本的樱花🌸主题
 
 ## Shell
 
@@ -77,8 +83,6 @@
 *   [bg8ixz/Serv00\_Auto\_Login](https://github.com/bg8ixz/Serv00_Auto_Login) - Serv00 - 免费主机自动登录续期
 
 *   [eidam/cf-workers-status-page](https://github.com/eidam/cf-workers-status-page) - Monitor your websites, showcase status including daily history, and get Slack/Telegram/Discord notification whenever your website status changes. Using Cloudflare Workers, CRON Triggers, and KV storage.
-
-*   [imsyy/site-status](https://github.com/imsyy/site-status) - 📺 一个基于 UptimeRobot API 的在线状态面板 | 站点监测 | 状态检测 | An online status panel based on the UptimeRobot API | UptimeRobot, status, site
 
 ## Dart
 
@@ -277,10 +281,6 @@
 ## Blade
 
 *   [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) - ☁️兰空图床(Lsky Pro) - Your photo album on the cloud.
-
-## CSS
-
-*   [LIlGG/halo-theme-sakura](https://github.com/LIlGG/halo-theme-sakura) - Halo 版本的樱花🌸主题
 
 ## Svelte
 
