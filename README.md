@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [HTML](#html)
 *   [Go](#go)
 *   [CSS](#css)
 *   [Shell](#shell)
@@ -16,7 +17,6 @@
 *   [TypeScript](#typescript)
 *   [PHP](#php)
 *   [Java](#java)
-*   [HTML](#html)
 *   [C++](#c)
 *   [Stylus](#stylus)
 *   [Python](#python)
@@ -35,6 +35,20 @@
 *   [Blade](#blade)
 *   [Svelte](#svelte)
 *   [JSON](#json)
+
+## HTML
+
+*   [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - 基于CloudFlare和Telegraph的免费图床，本仓库基于https://github.com/cf-pages/Telegraph-Image ，是原项目前端页面的重制版。开源、清晰、美观、动画丝滑、玩法多样！
+
+*   [youwen21/youwen21.github.io](https://github.com/youwen21/youwen21.github.io) - online M3U8, MPD  player,  m3u IPTV parse show.
+
+*   [GetPublii/Publii](https://github.com/GetPublii/Publii) - The most intuitive Static Site CMS designed for SEO-optimized and privacy-focused websites.
+
+*   [x-dr/telegraph-Image](https://github.com/x-dr/telegraph-Image) -
+
+*   [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.
+
+*   [Harry-zklcdc/go-proxy-bingai](https://github.com/Harry-zklcdc/go-proxy-bingai) - 用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，支持 API 调用，国内可用。
 
 ## Go
 
@@ -101,8 +115,6 @@
 *   [microfeed/microfeed](https://github.com/microfeed/microfeed) - a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
 
 *   [YangguangZhou/some-stars](https://github.com/YangguangZhou/some-stars) - 我的star列表，每天自动更新
-
-*   [bg8ixz/Serv00\_Auto\_Login](https://github.com/bg8ixz/Serv00_Auto_Login) - Serv00 - 免费主机自动登录续期
 
 ## Dart
 
@@ -179,18 +191,6 @@
 *   [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) - #1 Locally hosted web application that allows you to perform various operations on PDF files
 
 *   [halo-dev/halo](https://github.com/halo-dev/halo) - 强大易用的开源建站工具。
-
-## HTML
-
-*   [youwen21/youwen21.github.io](https://github.com/youwen21/youwen21.github.io) - online M3U8, MPD  player,  m3u IPTV parse show.
-
-*   [GetPublii/Publii](https://github.com/GetPublii/Publii) - The most intuitive Static Site CMS designed for SEO-optimized and privacy-focused websites.
-
-*   [x-dr/telegraph-Image](https://github.com/x-dr/telegraph-Image) -
-
-*   [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.
-
-*   [Harry-zklcdc/go-proxy-bingai](https://github.com/Harry-zklcdc/go-proxy-bingai) - 用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，支持 API 调用，国内可用。
 
 ## C++
 
