@@ -37,7 +37,7 @@
 
 ## JavaScript
 
-*   [xiaozhou26/deeplx-pro](https://github.com/xiaozhou26/deeplx-pro) -
+*   [xiaozhou26/deeplx-pro](https://github.com/xiaozhou26/deeplx-pro) - free deeplx-pro
 
 *   [xiaozhou26/gh-proxy-pro](https://github.com/xiaozhou26/gh-proxy-pro) -
 
