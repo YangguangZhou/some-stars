@@ -22,7 +22,6 @@
 *   [Python](#python)
 *   [Batchfile](#batchfile)
 *   [MATLAB](#matlab)
-*   [Dockerfile](#dockerfile)
 *   [C](#c-1)
 *   [Vue](#vue)
 *   [Rust](#rust)
@@ -93,7 +92,7 @@
 
 *   [MartialBE/one-hub](https://github.com/MartialBE/one-hub) - OpenAI 接口管理 & 分发系统，改自songquanpeng/one-api。支持更多模型，加入统计页面，完善非openai模型的函数调用。
 
-*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3, Mistral, Gemma 2, and other large language models.
+*   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
 
 *   [fruitbars/simple-one-api](https://github.com/fruitbars/simple-one-api) - OpenAI 接口接入适配，支持千帆大模型平台、讯飞星火大模型、腾讯混元以及MiniMax、Deep-Seek，等兼容OpenAI接口，仅单可执行文件，配置超级简单，一键部署，开箱即用.  Seamlessly integrate with OpenAI and compatible APIs using a single executable for quick setup and deployment.
 
@@ -114,6 +113,8 @@
 *   [wy580477/Alist-on-Glitch](https://github.com/wy580477/Alist-on-Glitch) - 在 Glitch 免费服务上部署 Alist
 
 *   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [V-Official-233/halo-PaaS](https://github.com/V-Official-233/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
 
 *   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
@@ -224,10 +225,6 @@
 ## MATLAB
 
 *   [ShiArthur03/ShiArthur03](https://github.com/ShiArthur03/ShiArthur03) -
-
-## Dockerfile
-
-*   [V-Official-233/halo-PaaS](https://github.com/V-Official-233/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
 
 ## C
 
