@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [miscellaneous](#miscellaneous)
 *   [TypeScript](#typescript)
 *   [JavaScript](#javascript)
 *   [HTML](#html)
@@ -30,8 +31,13 @@
 *   [Ruby](#ruby)
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Kotlin](#kotlin)
-*   [miscellaneous](#miscellaneous)
 *   [Blade](#blade)
+
+## miscellaneous
+
+*   [kuoihao/Serv00\_Auto\_Run](https://github.com/kuoihao/Serv00_Auto_Run) - serv00自动启动脚本
+
+*   [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
 
 ## TypeScript
 
@@ -118,8 +124,6 @@
 *   [x-dr/telegraph-Image](https://github.com/x-dr/telegraph-Image) -
 
 *   [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) - Image Hosting solution, Flickr/imgur alternative, make it easy for users to share their images. Using Cloudflare Pages and Telegraph.
-
-*   [Harry-zklcdc/go-proxy-bingai](https://github.com/Harry-zklcdc/go-proxy-bingai) - 用 Vue3 和 Go 搭建的微软 New Bing 演示站点，拥有一致的 UI 体验，支持 ChatGPT 提示词，支持 API 调用，国内可用。
 
 ## Go
 
@@ -272,10 +276,6 @@
 ## Kotlin
 
 *   [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) - NekoBox for Android / sing-box / universal proxy toolchain for Android
-
-## miscellaneous
-
-*   [zhuima/awesome-cloudflare](https://github.com/zhuima/awesome-cloudflare) - ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。/ ⛅️ A curated list of Cloudflare tools, open source projects, guides, blogs and other resources.
 
 ## Blade
 
