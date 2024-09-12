@@ -123,7 +123,7 @@
 
 *   [xiaozhou26/gh-proxy-pro](https://github.com/xiaozhou26/gh-proxy-pro) -
 
-*   [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - 基于CloudFlare和Telegram的免费图床，开源、清晰、美观、动画丝滑、玩法多样！
+*   [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - 基于CloudFlare和Telegram的免费图床，开源、清晰、美观、丝滑！
 
 *   [kkevsekk1/AutoX](https://github.com/kkevsekk1/AutoX) - A UiAutomator on android, does not need root access(安卓平台上的JavaScript自动化工具)
 
