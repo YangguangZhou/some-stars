@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [PHP](#php)
 *   [TypeScript](#typescript)
 *   [Kotlin](#kotlin)
 *   [Astro](#astro)
@@ -16,7 +17,6 @@
 *   [JavaScript](#javascript)
 *   [Vue](#vue)
 *   [Python](#python)
-*   [PHP](#php)
 *   [Go](#go)
 *   [Rust](#rust)
 *   [CSS](#css)
@@ -32,6 +32,20 @@
 *   [C#](#c-2)
 *   [Ruby](#ruby)
 *   [Visual Basic .NET](#visual-basic-net)
+
+## PHP
+
+*   [iCloudBot/toolbox](https://github.com/iCloudBot/toolbox) -
+
+*   [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
+
+*   [f4team-cn/f4pan](https://github.com/f4team-cn/f4pan) - A website to get netdisk download link for users who cannot install the client
+
+*   [typecho/typecho](https://github.com/typecho/typecho) - A PHP Blogging Platform. Simple and Powerful.
+
+*   [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
+
+*   [flarum/flarum](https://github.com/flarum/flarum) - Simple forum software for building great communities.
 
 ## TypeScript
 
@@ -161,18 +175,6 @@
 
 *   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
 
-## PHP
-
-*   [coollabsio/coolify](https://github.com/coollabsio/coolify) - An open-source & self-hostable Heroku / Netlify / Vercel alternative.
-
-*   [f4team-cn/f4pan](https://github.com/f4team-cn/f4pan) - A website to get netdisk download link for users who cannot install the client
-
-*   [typecho/typecho](https://github.com/typecho/typecho) - A PHP Blogging Platform. Simple and Powerful.
-
-*   [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
-
-*   [flarum/flarum](https://github.com/flarum/flarum) - Simple forum software for building great communities.
-
 ## Go
 
 *   [publicsuffix/list](https://github.com/publicsuffix/list) - The Public Suffix List
@@ -270,8 +272,6 @@
 ## C\#
 
 *   [Ponderfly/GoogleTranslateIpCheck](https://github.com/Ponderfly/GoogleTranslateIpCheck) -
-
-*   [yiyungent/KnifeHub](https://github.com/yiyungent/KnifeHub) - 🧰 简单易用的效率工具平台
 
 ## Ruby
 
