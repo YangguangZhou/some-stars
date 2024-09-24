@@ -9,6 +9,7 @@
 ## Table of Contents
 
 *   [JavaScript](#javascript)
+*   [Shell](#shell)
 *   [Python](#python)
 *   [Go](#go)
 *   [miscellaneous](#miscellaneous)
@@ -22,7 +23,6 @@
 *   [Rust](#rust)
 *   [CSS](#css)
 *   [Dart](#dart)
-*   [Shell](#shell)
 *   [Java](#java)
 *   [Stylus](#stylus)
 *   [Batchfile](#batchfile)
@@ -32,6 +32,10 @@
 *   [C#](#c-2)
 
 ## JavaScript
+
+*   [snakeying/GPT-Telegram-Bot](https://github.com/snakeying/GPT-Telegram-Bot) - Your own GPT Telegram Bot on Vercel
+
+*   [parentalclash/x-ui-freebsd](https://github.com/parentalclash/x-ui-freebsd) - 支持多协议多用户的 xray 面板
 
 *   [743859910/Typora\_Unlocker](https://github.com/743859910/Typora_Unlocker) - Typora 解锁 激活 补丁 支持的版本：1.0.0 - 1.9.5
 
@@ -63,7 +67,19 @@
 
 *   [joye61/pic-smaller](https://github.com/joye61/pic-smaller) - Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
 
-*   [feverrun/my\_scripts](https://github.com/feverrun/my_scripts) - 学习使用
+## Shell
+
+*   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
+
+*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
+
+*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
+
+*   [uubulb/alist-freebsd](https://github.com/uubulb/alist-freebsd) - Automatically build alist (FreeBSD version)
+
+*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
 
 ## Python
 
@@ -114,8 +130,6 @@
 *   [ollama/ollama](https://github.com/ollama/ollama) - Get up and running with Llama 3.1, Mistral, Gemma 2, and other large language models.
 
 *   [fruitbars/simple-one-api](https://github.com/fruitbars/simple-one-api) - OpenAI 接口接入适配，支持千帆大模型平台、讯飞星火大模型、腾讯混元以及MiniMax、Deep-Seek，等兼容OpenAI接口，仅单可执行文件，配置超级简单，一键部署，开箱即用.  Seamlessly integrate with OpenAI and compatible APIs using a single executable for quick setup and deployment.
-
-*   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
 
 ## miscellaneous
 
@@ -197,8 +211,6 @@
 
 *   [youwen21/youwen21.github.io](https://github.com/youwen21/youwen21.github.io) - online M3U8, MPD  player,  m3u IPTV parse show.
 
-*   [GetPublii/Publii](https://github.com/GetPublii/Publii) - The most intuitive Static Site CMS designed for SEO-optimized and privacy-focused websites.
-
 ## C++
 
 *   [tindy2013/subconverter](https://github.com/tindy2013/subconverter) - Utility to convert between various subscription format
@@ -234,18 +246,6 @@
 *   [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next) - Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
 
 *   [chen08209/FlClash](https://github.com/chen08209/FlClash) - A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
-
-## Shell
-
-*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
-
-*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
-
-*   [uubulb/alist-freebsd](https://github.com/uubulb/alist-freebsd) - Automatically build alist (FreeBSD version)
-
-*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥 一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
-
-*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
 
 ## Java
 
