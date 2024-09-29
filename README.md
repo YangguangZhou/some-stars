@@ -9,15 +9,14 @@
 ## Table of Contents
 
 *   [JavaScript](#javascript)
+*   [Shell](#shell)
 *   [PHP](#php)
 *   [Java](#java)
-*   [Shell](#shell)
 *   [Python](#python)
 *   [Go](#go)
 *   [miscellaneous](#miscellaneous)
 *   [TypeScript](#typescript)
 *   [Kotlin](#kotlin)
-*   [Astro](#astro)
 *   [HTML](#html)
 *   [C++](#c)
 *   [Vue](#vue)
@@ -32,6 +31,10 @@
 *   [C#](#c-2)
 
 ## JavaScript
+
+*   [ypq123456789/domainkeeper](https://github.com/ypq123456789/domainkeeper) - 域名可视化展示面板
+
+*   [nirui/sshwifty](https://github.com/nirui/sshwifty) - Web SSH & Telnet (WebSSH & WebTelnet client) 🔮
 
 *   [fangyuan99/cookie-share](https://github.com/fangyuan99/cookie-share) - Cookie-share是一个 Chrome 扩展，允许用户在不同设备或浏览器之间发送和接收 cookies。它使用 Cloudflare Worker 作为后端来存储和检索 cookie 数据。
 
@@ -67,7 +70,23 @@
 
 *   [Momo707577045/m3u8-downloader](https://github.com/Momo707577045/m3u8-downloader) - m3u8 视频在线提取工具
 
-*   [joye61/pic-smaller](https://github.com/joye61/pic-smaller) - Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
+## Shell
+
+*   [bin862324915/serv00-app](https://github.com/bin862324915/serv00-app) - 一些serv00部署的应用
+
+*   [ansoncloud8/am-alist-freebsd](https://github.com/ansoncloud8/am-alist-freebsd) - 根据官网alist源码自动构建alist（FreeBSD版本）可以部署文件,实现serv00部署.
+
+*   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
+
+*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
+
+*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
+
+*   [uubulb/alist-freebsd](https://github.com/uubulb/alist-freebsd) - Automatically build alist (FreeBSD version)
+
+*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费SSL证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
 
 ## PHP
 
@@ -87,20 +106,6 @@
 
 *   [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) - 代理 MidJourney 的discord频道，实现api形式调用AI绘图
 
-## Shell
-
-*   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
-
-*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
-
-*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
-
-*   [uubulb/alist-freebsd](https://github.com/uubulb/alist-freebsd) - Automatically build alist (FreeBSD version)
-
-*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费SSL证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
-
-*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
-
 ## Python
 
 *   [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) - 🚀 基于大语言模型和 RAG 的知识库问答系统。开箱即用、模型中立、灵活编排，支持快速嵌入到第三方业务系统。
@@ -118,8 +123,6 @@
 *   [crazypeace/huashengdun-webssh](https://github.com/crazypeace/huashengdun-webssh) - 增加生成sshlink功能，方便收藏，下次使用不需要输入密码。
 
 *   [LlamaFamily/Llama-Chinese](https://github.com/LlamaFamily/Llama-Chinese) - Llama中文社区，Llama3在线体验和微调模型已开放，实时汇总最新Llama3学习资料，已将所有代码更新适配Llama3，构建最好的中文Llama大模型，完全开源可商用
-
-*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.
 
 ## Go
 
@@ -159,6 +162,8 @@
 
 *   [markmap/markmap](https://github.com/markmap/markmap) - Build mindmaps with plain text
 
+*   [LaughingZhu/DevNow](https://github.com/LaughingZhu/DevNow) - 📚 DevNow is an open source technology blog project. It currently hosts weekly news  （about  technology, development and product）, which is published every Monday morning. / DevNow 是一个精简的开源技术博客项目模版，支持 Vercel 一键部署，支持评论、搜索等功能，欢迎大家体验。
+
 *   [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Continuation of Clash Verge - A Clash Meta GUI based on Tauri (Windows, MacOS, Linux)
 
 *   [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。
@@ -195,10 +200,6 @@
 
 *   [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui) - Come join the best place on the internet to learn AI skills. Use code "chatbotui" for an extra 20% off.
 
-*   [openai/openai-node](https://github.com/openai/openai-node) - The official Node.js / Typescript library for the OpenAI API
-
-*   [langgenius/dify](https://github.com/langgenius/dify) - Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
-
 ## Kotlin
 
 *   [littleclaw/AutoDing](https://github.com/littleclaw/AutoDing) - 钉钉打卡，包括定时打卡和远程推送打卡
@@ -206,10 +207,6 @@
 *   [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) - A rule-based tunnel for Android.
 
 *   [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) - 短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
-
-## Astro
-
-*   [LaughingZhu/DevNow](https://github.com/LaughingZhu/DevNow) - 📚 DevNow is an open source technology blog project. It currently hosts weekly news  （about  technology, development and product）, which is published every Monday morning. / DevNow 是一个精简的开源技术博客项目模版，支持 Vercel 一键部署，支持评论、搜索等功能，欢迎大家体验。
 
 ## HTML
 
