@@ -119,7 +119,7 @@
 
 ## miscellaneous
 
-*   [DigitalPlatDev/US.KG](https://github.com/DigitalPlatDev/US.KG) - US.KG Free Domain For Everyone
+*   [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) - US.KG Free Domain For Everyone
 
 *   [AnTi-anti/python-scrapy](https://github.com/AnTi-anti/python-scrapy) - 52讲轻松搞定爬虫
 
