@@ -34,9 +34,10 @@
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Blade](#blade)
 *   [Svelte](#svelte)
-*   [JSON](#json)
 
 ## TypeScript
+
+*   [SukkaW/location-guard-ng](https://github.com/SukkaW/location-guard-ng) - A UserScript that hide/spoof your geographic location from websites.
 
 *   [photoview/photoview](https://github.com/photoview/photoview) - Photo gallery for self-hosted personal servers
 
@@ -314,7 +315,7 @@
 
 *   [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) - 一个多功能Linux服务器WEB终端面板(webSSH\&webSFTP). 更新通知TG：
 
-*   [october-coder/api-check](https://github.com/october-coder/api-check) -
+*   [october-coder/api-check](https://github.com/october-coder/api-check) - Pure Front-End API Testing Tool
 
 *   [stilleshan/subweb](https://github.com/stilleshan/subweb) - subweb 是基于 subconverter 订阅转换的前端项目,方便用户快速生成各平台的订阅链接.
 
@@ -485,7 +486,3 @@
 ## Svelte
 
 *   [open-webui/open-webui](https://github.com/open-webui/open-webui) - User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
-
-## JSON
-
-*   [upptime/upptime](https://github.com/upptime/upptime) - ⬆️ GitHub Actions uptime monitor & status page by @AnandChowdhary
