@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 });
 
 async function handleRequest(request) {
-  const response = await fetch('https://cdn.jsdelivr.net/gh/YangguangZhou/some-stars@main/data.json');   //这里的xxx修改为自己仓库的json raw文件
+  const response = await fetch('https://raw.githubusercontent.com/Nuyoah965/some-stars/refs/heads/main/data.json');   //这里的xxx修改为自己仓库的json raw文件
   const data = await response.json();
 
   const html = generateHTML(data);
