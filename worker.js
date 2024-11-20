@@ -59,9 +59,9 @@ function generateHTML(data) {
     <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <link rel="icon" href="https://jerryz.com.cn/favicon.png">
+      <link rel="icon" href="/">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Jerry Zhou GitHub Stars 导航</title>
+      <title>Leboooo GitHub Stars 导航</title>
       <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
       
       <style>
@@ -153,7 +153,7 @@ function generateHTML(data) {
     <body class="bg-gray-100">
       <div class="sticky-header flex justify-between items-center px-4 py-2 bg-white shadow-md">
         <h1 class="text-2xl font-bold">
-          <a href="https://jerryz.com.cn" class="hidden md:block">Jerry Zhou GitHub Stars 导航</a>
+          <a href="/" class="hidden md:block">Leboooo GitHub Stars 导航</a>
         </h1>
         <input id="search" type="text" placeholder="Search repositories..." class="p-2 border rounded md:w-1/3 w-full mx-auto">
       </div>
@@ -169,7 +169,7 @@ function generateHTML(data) {
         </div>
       </div>
       <div class="text-center py-4">
-        Copyright © 2024 <a href="https://jerryz.com.cn" class="text-blue-500 hover:underline">Jerry Zhou</a> . All Rights Reserved.
+        Copyright © 2024 <a href="/" class="text-blue-500 hover:underline">Leboooo</a> . All Rights Reserved.
       </div>
       <button id="back-to-top">↑</button>
       <script>
