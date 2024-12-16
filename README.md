@@ -62,7 +62,7 @@
 
 *   [parentalclash/x-ui-freebsd](https://github.com/parentalclash/x-ui-freebsd) - 支持多协议多用户的 xray 面板
 
-*   [743859910/Typora\_Unlocker](https://github.com/743859910/Typora_Unlocker) - Typora 解锁 序列号 激活码 激活补丁，支持：Linux系统，Windows系统，Typora\_Unlocker支持的版本：1.0.0 - 1.9.5
+*   [743859910/Typora\_Unlocker](https://github.com/743859910/Typora_Unlocker) - Typora 解锁 序列号 激活码 激活补丁，支持：Linux系统/Windows系统，Typora\_Unlocker支持的版本：1.0.0 - 1.9.5
 
 *   [Archeb/pplx-proxy](https://github.com/Archeb/pplx-proxy) -
 
