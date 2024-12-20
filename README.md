@@ -36,7 +36,7 @@
 
 ## JavaScript
 
-*   [91xusir/91xmind](https://github.com/91xusir/91xmind) -
+*   [91xusir/91xmind](https://github.com/91xusir/91xmind) - Small toys
 
 *   [jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) -  🦋 A Hexo Theme: Butterfly
 
