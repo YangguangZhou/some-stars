@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [Shell](#shell)
 *   [TypeScript](#typescript)
 *   [Go](#go)
 *   [miscellaneous](#miscellaneous)
@@ -20,7 +21,6 @@
 *   [Vue](#vue)
 *   [Rust](#rust)
 *   [C](#c)
-*   [Shell](#shell)
 *   [PHP](#php)
 *   [Java](#java)
 *   [Kotlin](#kotlin)
@@ -33,6 +33,32 @@
 *   [Ruby](#ruby)
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Blade](#blade)
+
+## Shell
+
+*   [CISOfy/lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system hardening. Agentless, and installation optional.
+
+*   [eooce/Sing-box](https://github.com/eooce/Sing-box) - 既然来了，就留下你的Star吧！Serv00 | CT8 | VPS | 游戏机 | sing-box(reality + hy2 + vmess-argo +tuic5)四合一无交互一键安装脚本(已适配Alpine)，支持纯V6 vps，默认解锁GPT和奈飞
+
+*   [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) - VPS融合怪服务器测评项目(VPS Fusion Monster Server Test Script)(尽量做最全能测试服务器的脚本)
+
+*   [bin456789/reinstall](https://github.com/bin456789/reinstall) - 一键DD/重装脚本 (One-click reinstall OS on VPS)
+
+*   [bin862324915/serv00-app](https://github.com/bin862324915/serv00-app) - 一些serv00部署的应用
+
+*   [ansoncloud8/am-alist-freebsd](https://github.com/ansoncloud8/am-alist-freebsd) - 根据官网alist源码自动构建alist（FreeBSD版本）可以部署文件,实现serv00部署.
+
+*   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
+
+*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
+
+*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
+
+*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费SSL证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
+
+*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
+
+*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## TypeScript
 
@@ -100,7 +126,7 @@
 
 *   [langgenius/dify](https://github.com/langgenius/dify) - Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
 
-*   [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) - A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini 应用。
+*   [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) - A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini/Claude LLM 应用。
 
 *   [beilunyang/img-mom](https://github.com/beilunyang/img-mom) - telegram bot（图片老妈）
 
@@ -306,8 +332,6 @@
 
 *   [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) - :octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.
 
-*   [gacjie/cf2dns](https://github.com/gacjie/cf2dns) - cf2dns宝塔插件版
-
 ## CSS
 
 *   [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) - 十二种主题风格 - Material Google JetBrains Vue Juejin Purple Ayu Dark
@@ -359,30 +383,6 @@
 *   [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) - Display and control your Android device
 
 *   [fontforge/fontforge](https://github.com/fontforge/fontforge) - Free (libre) font editor for Windows, Mac OS X and GNU+Linux
-
-## Shell
-
-*   [eooce/Sing-box](https://github.com/eooce/Sing-box) - 既然来了，就留下你的Star吧！Serv00 | CT8 | VPS | 游戏机 | sing-box(reality + hy2 + vmess-argo +tuic5)四合一无交互一键安装脚本(已适配Alpine)，支持纯V6 vps，默认解锁GPT和奈飞
-
-*   [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) - VPS融合怪服务器测评项目(VPS Fusion Monster Server Test Script)(尽量做最全能测试服务器的脚本)
-
-*   [bin456789/reinstall](https://github.com/bin456789/reinstall) - 一键DD/重装脚本 (One-click reinstall OS on VPS)
-
-*   [bin862324915/serv00-app](https://github.com/bin862324915/serv00-app) - 一些serv00部署的应用
-
-*   [ansoncloud8/am-alist-freebsd](https://github.com/ansoncloud8/am-alist-freebsd) - 根据官网alist源码自动构建alist（FreeBSD版本）可以部署文件,实现serv00部署.
-
-*   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
-
-*   [k0baya/one-api-freebsd](https://github.com/k0baya/one-api-freebsd) - Automatically build one-api (FreeBSD version)
-
-*   [k0baya/new-api-freebsd](https://github.com/k0baya/new-api-freebsd) - Automatically build New-API (FreeBSD version)
-
-*   [httpsok/httpsok](https://github.com/httpsok/httpsok) - 🔥🔥🔥一行命令，轻松搞定SSL证书自动续期。 SSL泛域名证书，SSL证书管理，SSL证书自动续期，SSL证书自动更新，七牛云、阿里云、腾讯云、CDN、OSS、https证书管理,https证书管理,免费SSL证书,TLS证书自动续签,nginx证书自动续期工具，nginx证书管理。从此告别Let's Encrypt
-
-*   [VOfficial404/halo-PaaS](https://github.com/VOfficial404/halo-PaaS) - 将 halo 博客部署在Zeabur、Serv00、railway、render、Northflank、Koyeb、CodeSandbox等PaaS平台
-
-*   [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) - An online proxy based on ServiceWorker
 
 ## PHP
 
