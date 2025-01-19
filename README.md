@@ -92,7 +92,7 @@
 
 *   [LaughingZhu/DevNow](https://github.com/LaughingZhu/DevNow) - 📚 DevNow is an open source technology blog project. It currently hosts weekly news  （about  technology, development and product）, which is published every Monday morning. / DevNow 是一个精简的开源技术博客项目模版，支持 Vercel 一键部署，支持评论、搜索等功能，欢迎大家体验。
 
-*   [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - Continuation of Clash Verge - A Clash Meta GUI based on Tauri (Windows, MacOS, Linux)
+*   [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) - A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience
 
 *   [XPoet/picx](https://github.com/XPoet/picx) - 🏞️ PicX 是一款基于 GitHub API 开发的图床工具，提供图片上传托管、生成图片链接和常用图片工具箱服务。
 
