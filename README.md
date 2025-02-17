@@ -73,7 +73,7 @@
 
 ## Python
 
-*   [cndaqiang/WZRY](https://github.com/cndaqiang/WZRY) - 王者荣耀 · 农活自动化助手.  7\*24h 无人值守|自动对战|领礼包|刷金币|熟练度|信誉分|支持iOS区. 启动模拟器、更新游戏、错误自修复，解放双手专注生活。永久免费|不搞Ai排位|超低功耗|佛系更新|随时跑路. 从未被封号处罚!!!
+*   [cndaqiang/WZRY](https://github.com/cndaqiang/WZRY) - 王者荣耀 · 农活自动化助手.  7\*24h 无人值守|自动对战|领礼包|刷金币|熟练度|信誉分|支持iOS区.  解放双手专注生活. 个人开发|个人使用|开源免费|随时跑路
 
 *   [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) - 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件（FileCodeBox - File Express Cabinet - Anonymous Passcode Sharing Text, Files, Like Taking Express Delivery for Files）
 
@@ -171,7 +171,7 @@
 
 *   [webrecorder/replayweb.page](https://github.com/webrecorder/replayweb.page) - Serverless replay of web archives directly in the browser
 
-*   [zmzimpl/chrome-power-app](https://github.com/zmzimpl/chrome-power-app) - The first open source fingerprint browser.
+*   [zmzimpl/chrome-power-app](https://github.com/zmzimpl/chrome-power-app) - The first open source multi-chrome manager tool.
 
 *   [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) - Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
 
