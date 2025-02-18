@@ -73,7 +73,7 @@
 
 ## Python
 
-*   [cndaqiang/WZRY](https://github.com/cndaqiang/WZRY) - 王者荣耀 · 农活自动化助手.  7\*24h 无人值守|自动对战|领礼包|刷金币|熟练度|信誉分|支持iOS区.  解放双手专注生活. 个人开发|个人使用|开源免费|随时跑路
+*   [cndaqiang/WZRY](https://github.com/cndaqiang/WZRY) - 王者荣耀 · 农活自动化助手.  7\*24h 无人值守, 解放双手专注生活.  自动对战|领礼包|刷金币|熟练度|信誉分|支持iOS区|个人自用|开源免费|随时跑路
 
 *   [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) - 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件（FileCodeBox - File Express Cabinet - Anonymous Passcode Sharing Text, Files, Like Taking Express Delivery for Files）
 
