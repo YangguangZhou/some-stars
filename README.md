@@ -9,6 +9,7 @@
 ## Table of Contents
 
 *   [TypeScript](#typescript)
+*   [Clojure](#clojure)
 *   [Shell](#shell)
 *   [C#](#c)
 *   [Kotlin](#kotlin)
@@ -34,6 +35,8 @@
 *   [Visual Basic .NET](#visual-basic-net)
 
 ## TypeScript
+
+*   [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) - 🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool
 
 *   [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)
 
@@ -115,6 +118,10 @@
 
 *   [ChatGPTNextWeb/NextChat](https://github.com/ChatGPTNextWeb/NextChat) - ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 
+## Clojure
+
+*   [logseq/logseq](https://github.com/logseq/logseq) - A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: http://trello.com/b/8txSM12G/roadmap
+
 ## Shell
 
 *   [electerm/electerm-web-docker](https://github.com/electerm/electerm-web-docker) - docker image of electerm-web
@@ -182,8 +189,6 @@
 *   [flarum/framework](https://github.com/flarum/framework) - Simple forum software for building great communities.
 
 *   [flarum/flarum](https://github.com/flarum/flarum) - Simple forum software for building great communities.
-
-*   [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) - Multi-purpose proxy service management system
 
 ## Python
 
@@ -300,8 +305,6 @@
 *   [OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX) - Powerful Free DeepL API, No Token Required
 
 *   [apache/answer](https://github.com/apache/answer) - A Q\&A platform software for teams at any scales. Whether it's a community forum, help center, or knowledge management platform, you can always count on Apache Answer.
-
-*   [XrayR-project/XrayR](https://github.com/XrayR-project/XrayR) - A Xray backend framework that can easily support many panels. 一个基于Xray的后端框架，支持V2ay,Trojan,Shadowsocks协议，极易扩展，支持多面板对接
 
 ## Java
 
