@@ -377,7 +377,7 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 农活自动化助手旨在帮助玩家摆脱每日上线的人机任务与重复领取礼包的繁琐操作，让玩家腾出时间，更专注于享受生活。
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 自动化农活演示
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
