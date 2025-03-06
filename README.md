@@ -42,7 +42,7 @@
 
 *   [uxiaohan/ZYCS-IMG](https://github.com/uxiaohan/ZYCS-IMG) - 骤雨重山图床
 
-*   [uxiaohan/vhAstro-Theme](https://github.com/uxiaohan/vhAstro-Theme) - 一款简约的 Astro 主题
+*   [uxiaohan/vhAstro-Theme](https://github.com/uxiaohan/vhAstro-Theme) - 🚀 vhAstro-Theme：一款基于 Astro 构建的优雅的响应式博客主题
 
 ## JavaScript
 
@@ -444,7 +444,7 @@
 
 ## Kotlin
 
-*   [ldlywt/IdeaMemo](https://github.com/ldlywt/IdeaMemo) - Flash Capsule App written with Jetpack Compose.        开源Android闪念笔记App。
+*   [ldlywt/IdeaMemo](https://github.com/ldlywt/IdeaMemo) - A Beautiful Memo App written with Jetpack Compose.        开源Android闪念笔记App。
 
 *   [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) - Material Design file manager for Android
 
