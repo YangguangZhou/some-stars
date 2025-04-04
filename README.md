@@ -130,7 +130,7 @@
 
 *   [donknap/dpanel](https://github.com/donknap/dpanel) - 轻量化 docker 可视化管理面板。lightweight  panel for docker
 
-*   [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens.
+*   [XTLS/Xray-core](https://github.com/XTLS/Xray-core) - Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.
 
 *   [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
 
