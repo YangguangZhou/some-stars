@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+*   [Rust](#rust)
 *   [Go](#go)
 *   [Shell](#shell)
 *   [miscellaneous](#miscellaneous)
@@ -27,7 +28,6 @@
 *   [Clojure](#clojure)
 *   [C#](#c-2)
 *   [Batchfile](#batchfile)
-*   [Rust](#rust)
 *   [EJS](#ejs)
 *   [Stylus](#stylus)
 *   [CSS](#css)
@@ -36,6 +36,24 @@
 *   [Visual Basic .NET](#visual-basic-net)
 *   [Blade](#blade)
 *   [JSON](#json)
+
+## Rust
+
+*   [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) - An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
+
+*   [flxzt/rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
+
+*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
+
+*   [erebe/wstunnel](https://github.com/erebe/wstunnel) - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
+
+*   [rust-net/tcp2ws](https://github.com/rust-net/tcp2ws) - TCP to WebSocket
+
+*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs
+
+*   [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
+
+*   [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 
 ## Go
 
@@ -290,8 +308,6 @@
 *   [gacjie/cf2dns](https://github.com/gacjie/cf2dns) - cf2dns宝塔插件版
 
 *   [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) - 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT-o1/ DeepSeek/Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
-
-*   [scipy-lectures/scientific-python-lectures](https://github.com/scipy-lectures/scientific-python-lectures) - Tutorial material on the scientific Python ecosystem
 
 ## Kotlin
 
@@ -633,27 +649,11 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 自动化农活演示
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 自动化农活演示|切换dev分支查看源码
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
 *   [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) - Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
-
-## Rust
-
-*   [flxzt/rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
-
-*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
-
-*   [erebe/wstunnel](https://github.com/erebe/wstunnel) - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
-
-*   [rust-net/tcp2ws](https://github.com/rust-net/tcp2ws) - TCP to WebSocket
-
-*   [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) - Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden\_rs
-
-*   [cloudflare/pingora](https://github.com/cloudflare/pingora) - A library for building fast, reliable and evolvable network services.
-
-*   [lencx/ChatGPT](https://github.com/lencx/ChatGPT) - 🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 
 ## EJS
 
