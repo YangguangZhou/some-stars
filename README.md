@@ -87,7 +87,7 @@
 
 *   [ouqiang/gocron](https://github.com/ouqiang/gocron) - 定时任务管理系统
 
-*   [oneclickvirt/ecs](https://github.com/oneclickvirt/ecs) - VPS融合怪服务器测评项目-GO版本(VPS Fusion Monster Server Test Script)(尽量做最全能测试服务器的项目)(无额外环境依赖)
+*   [oneclickvirt/ecs](https://github.com/oneclickvirt/ecs) - VPS融合怪服务器测评项目-GO版本(VPS Fusion Monster Server Test Script)(尽量做最全能测试服务器的项目)(无环境依赖)
 
 *   [eryajf/chatgpt-dingtalk](https://github.com/eryajf/chatgpt-dingtalk) - 🎒 钉钉 & 🤖 GPT-3.5 让你的工作效率直接起飞 🚀 私聊群聊方式、单聊串聊模式、角色扮演、图片创作 🚀
 
@@ -142,8 +142,6 @@
 *   [bin456789/reinstall](https://github.com/bin456789/reinstall) - 一键DD/重装脚本 (One-click reinstall OS on VPS)
 
 *   [bin862324915/serv00-app](https://github.com/bin862324915/serv00-app) - 一些serv00部署的应用
-
-*   [ansoncloud8/am-alist-freebsd](https://github.com/ansoncloud8/am-alist-freebsd) - 根据官网alist源码自动构建alist（FreeBSD版本）可以部署文件,实现serv00部署.
 
 *   [yixiu001/serv00-xui](https://github.com/yixiu001/serv00-xui) - serv00搭建X-UI面板脚本
 
@@ -308,6 +306,8 @@
 *   [gacjie/cf2dns](https://github.com/gacjie/cf2dns) - cf2dns宝塔插件版
 
 *   [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) - 基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT4.1/GPT-4o/GPT-o1/ DeepSeek/Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。
+
+*   [scipy-lectures/scientific-python-lectures](https://github.com/scipy-lectures/scientific-python-lectures) - Tutorial material on the scientific Python ecosystem
 
 ## Kotlin
 
@@ -565,7 +565,7 @@
 
 *   [umami-software/umami](https://github.com/umami-software/umami) - Umami is a simple, fast, privacy-focused alternative to Google Analytics.
 
-*   [xjh22222228/nav](https://github.com/xjh22222228/nav) - 发现导航 , 最强轻量级导航网站 Discover Navigation, the Strongest Lightweight Navigation Website
+*   [xjh22222228/nav](https://github.com/xjh22222228/nav) - 发现导航 , 好用强大轻量级导航网站 Discover navigation, easy to use, powerful lightweight navigation website
 
 *   [Kuingsmile/word-GPT-Plus](https://github.com/Kuingsmile/word-GPT-Plus) - Word GPT Plus is a word add-in which integrates the chatGPT model into Microsoft Word. Both official and web api is supported.
 
