@@ -121,7 +121,7 @@
 
 *   [u14app/gemini-next-chat](https://github.com/u14app/gemini-next-chat) - Deploy your private Gemini application for free with one click, supporting Gemini 1.5, Gemini 2.0 models.
 
-*   [Bistutu/FluentRead](https://github.com/Bistutu/FluentRead) - Open Immersive Translate. A revolutionary open-source browser translation plugin that enables everyone to have a native-like reading experience. 开源的沉浸式翻译，一款革命性的浏览器开源翻译插件，让所有人都能够拥有母语般的阅读体验。https://fluent.thinkstu.com
+*   [Bistutu/FluentRead](https://github.com/Bistutu/FluentRead) - Open Immersive Translate. A revolutionary open-source browser translation plugin that enables everyone to have a native-like reading experience. 开源的沉浸式翻译，一款革命性的浏览器翻译插件，让所有人都能够拥有母语般的阅读体验。
 
 *   [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) - 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers.
 
