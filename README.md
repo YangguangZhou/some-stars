@@ -181,7 +181,7 @@
 
 *   [chronark/envshare](https://github.com/chronark/envshare) - Share Environnment Variables Securely
 
-*   [appwrite/appwrite](https://github.com/appwrite/appwrite) - Build like a team of hundreds\_
+*   [appwrite/appwrite](https://github.com/appwrite/appwrite) - The open-source Vercel alternative
 
 *   [nhost/nhost](https://github.com/nhost/nhost) - The Open Source Firebase Alternative with GraphQL.
 
