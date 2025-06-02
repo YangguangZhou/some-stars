@@ -652,7 +652,7 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 自动化农活演示|切换dev分支查看源码
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 演示代码见dev分支|Python <= 3.12.9
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
