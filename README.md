@@ -155,7 +155,7 @@
 
 *   [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) - A new AList Fork to Anti Trust Crisis
 
-*   [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) - 🌩 Self-hosted file management and sharing system, supports multiple storage providers
+*   [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) - 🌩 Self-hosted file management and sharing system, supports multiple storage providers
 
 *   [NodeSeekDev/nlist](https://github.com/NodeSeekDev/nlist) -
 
@@ -355,7 +355,7 @@
 
 *   [xiaozhou26/gh-proxy-pro](https://github.com/xiaozhou26/gh-proxy-pro) -
 
-*   [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - 基于 CloudFlare Pages 的开源文件托管解决方案（图床/文件床/网盘）
+*   [MarSeventh/CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) - Open-source file hosting solution based on CloudFlare Pages (Image hosting/File storage/Cloud drive) / 基于 CloudFlare Pages 的开源文件托管解决方案（图床/文件床/网盘）
 
 *   [orglen/gunara](https://github.com/orglen/gunara) -
 
