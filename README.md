@@ -655,7 +655,7 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 7\*24h无人值守自动化农活|玊者荣光翟🤖🔥⛰🎁|代码见dev分支|Python <= 3.12.9
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 7\*24h无人值守自动化农活|玊者荣光翟🤖🔥⛰🎁|代码见dev分支|Python <= 3.12.9(推荐3.7)
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
