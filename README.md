@@ -379,8 +379,6 @@
 
 *   [Adonis142857/Real-Address-Generator](https://github.com/Adonis142857/Real-Address-Generator) - An address generator for populating real addresses for China, USA, UK, Germany, France and 22 other countries.一个用于填充真实地址的地址生成器，可以生成中国，美国，英国，德国，法国等22个国家的真实地址
 
-*   [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - A Clash Client For OpenWrt
-
 *   [zizifn/edgetunnel](https://github.com/zizifn/edgetunnel) - Running V2ray inside edge/serverless runtime
 
 *   [iGaoWei/BigDataView](https://github.com/iGaoWei/BigDataView) - 100+套大数据可视化炫酷大屏Html5模板；包含行业：社区、物业、政务、交通、金融银行等，全网最新、最多，最全、最酷、最炫大数据可视化模板。陆续更新中
@@ -610,6 +608,8 @@
 *   [Qexo/Qexo](https://github.com/Qexo/Qexo) - A fast, powerful and beautiful online manager for all static blog frameworks.
 
 *   [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) - DigitalPlat FreeDomain: Free Domain For Everyone
+
+*   [vernesong/OpenClash](https://github.com/vernesong/OpenClash) - A Clash Client For OpenWrt
 
 *   [youwen21/youwen21.github.io](https://github.com/youwen21/youwen21.github.io) - online M3U8, MPD  player,  m3u IPTV parse show.
 
