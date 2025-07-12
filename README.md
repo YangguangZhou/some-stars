@@ -151,7 +151,7 @@
 
 ## TypeScript
 
-*   [senshinya/MoonTV](https://github.com/senshinya/MoonTV) -
+*   [senshinya/MoonTV](https://github.com/senshinya/MoonTV) - 一个开箱即用的、跨平台的影视聚合播放站
 
 *   [oiov/wr.do](https://github.com/oiov/wr.do) - 📧🔗🌏 Shorten links, manage emails, cloud storage and control subdomains—all on one platform.
 
