@@ -625,7 +625,7 @@
 
 ## C
 
-*   [haiwen/seafile](https://github.com/haiwen/seafile) - High performance file syncing and sharing, with also Markdown WYSIWYG editing, Wiki, file label and other knowledge management features.
+*   [haiwen/seafile](https://github.com/haiwen/seafile) - Beyong file syncing and sharing, a new way to organize your files with extensible file properties and flexible views
 
 *   [nrootconauto/MrChrootBSD](https://github.com/nrootconauto/MrChrootBSD) - A PRoot like utility for FreeBSD
 
