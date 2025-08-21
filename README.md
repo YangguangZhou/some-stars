@@ -411,7 +411,7 @@
 
 *   [wanglin2/mind-map](https://github.com/wanglin2/mind-map) - SimpleMindMap（思绪思维导图）：一个强大的Web思维导图。A powerful web mind map.
 
-*   [LoveCards/LoveCardsV2](https://github.com/LoveCards/LoveCardsV2) - 简约不简单，LoveCards也可以不只是表白墙
+*   [LoveCards/LoveCardsV2](https://github.com/LoveCards/LoveCardsV2) - 一款轻量、快速、友好于一身的微型社区系统
 
 *   [microfeed/microfeed](https://github.com/microfeed/microfeed) - a lightweight cms self-hosted on cloudflare, for podcasts, blogs, photos, videos, documents, and curated urls.
 
