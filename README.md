@@ -623,7 +623,7 @@
 
 ## C
 
-*   [haiwen/seafile](https://github.com/haiwen/seafile) - Beyong file syncing and sharing, a new way to organize your files with extensible file properties and flexible views
+*   [haiwen/seafile](https://github.com/haiwen/seafile) - Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views
 
 *   [nrootconauto/MrChrootBSD](https://github.com/nrootconauto/MrChrootBSD) - A PRoot like utility for FreeBSD
 
