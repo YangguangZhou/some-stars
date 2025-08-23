@@ -53,6 +53,8 @@
 
 *   [codexu/note-gen](https://github.com/codexu/note-gen) - A cross-platform Markdown AI note-taking software.
 
+*   [Done-0/Jank](https://github.com/Done-0/Jank) - 一个轻量级的博客系统，基于 Go 语言和 hertz 框架开发，支持多主题和多插件。
+
 *   [JOYCEQL/magic-resume](https://github.com/JOYCEQL/magic-resume) - free online AI resume editor
 
 *   [beilunyang/moemail](https://github.com/beilunyang/moemail) - 一个基于 NextJS + Cloudflare 技术栈构建的可爱临时邮箱服务🎉
@@ -173,8 +175,6 @@
 
 *   [synctv-org/synctv](https://github.com/synctv-org/synctv) - Synchronized viewing, theater, live streaming, video
 
-*   [Done-0/Jank](https://github.com/Done-0/Jank) - Jank，一个轻量级的博客系统，基于 Go 语言和 Echo 框架开发，强调极简、低耦合和高扩展。
-
 *   [henrygd/beszel](https://github.com/henrygd/beszel) - Lightweight server monitoring hub with historical data, docker stats, and alerts.
 
 *   [drakkan/sftpgo](https://github.com/drakkan/sftpgo) - Full-featured and highly configurable SFTP, HTTP/S, FTP/S and WebDAV server - S3, Google Cloud Storage, Azure Blob
@@ -277,8 +277,6 @@
 
 *   [flxzt/rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
 
-*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
-
 *   [erebe/wstunnel](https://github.com/erebe/wstunnel) - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
 
 *   [rust-net/tcp2ws](https://github.com/rust-net/tcp2ws) - TCP to WebSocket
@@ -350,6 +348,8 @@
 *   [obgnail/typora\_plugin](https://github.com/obgnail/typora_plugin) - Typora plugin. Feature enhancement tool | Typora 插件，功能增强工具
 
 *   [steve02081504/96110](https://github.com/steve02081504/96110) - 当用户使用简体中文时将他们跳转至反诈中心
+
+*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 
 *   [91xusir/91xmind](https://github.com/91xusir/91xmind) - Small toys
 
