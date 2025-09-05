@@ -143,7 +143,7 @@
 
 *   [openai/openai-node](https://github.com/openai/openai-node) - Official JavaScript / TypeScript library for the OpenAI API
 
-*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is a leading open-source RAG engine, converging cutting-edge RAG with Agent capabilities to build the superior context layer for LLMs.
+*   [infiniflow/ragflow](https://github.com/infiniflow/ragflow) - RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs
 
 *   [langgenius/dify](https://github.com/langgenius/dify) - Production-ready platform for agentic workflow development.
 
@@ -653,7 +653,7 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 7\*24h无人值守自动化农活|玊者荣光翟🤖🔥⛰🎁|代码见dev分支|Python <= 3.12.9(推荐3.7)
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 农友,右上角的Star点一下|玊者荣光翟自动化🤖🔥⛰🎁|7\*24h无人值守自动化农活|代码见dev分支|Python <= 3.12.9(推荐3.7)
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
