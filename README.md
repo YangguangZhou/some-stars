@@ -277,6 +277,8 @@
 
 *   [flxzt/rnote](https://github.com/flxzt/rnote) - Sketch and take handwritten notes.
 
+*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with one command. 🤱🏻 一键打包网页生成轻量桌面应用。
+
 *   [erebe/wstunnel](https://github.com/erebe/wstunnel) - Tunnel all your traffic over Websocket or HTTP2 - Bypass firewalls/DPI - Static binary available
 
 *   [rust-net/tcp2ws](https://github.com/rust-net/tcp2ws) - TCP to WebSocket
@@ -348,8 +350,6 @@
 *   [obgnail/typora\_plugin](https://github.com/obgnail/typora_plugin) - Typora plugin. Feature enhancement tool | Typora 插件，功能增强工具
 
 *   [steve02081504/96110](https://github.com/steve02081504/96110) - 当用户使用简体中文时将他们跳转至反诈中心
-
-*   [tw93/Pake](https://github.com/tw93/Pake) - 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 
 *   [91xusir/91xmind](https://github.com/91xusir/91xmind) - Small toys
 
