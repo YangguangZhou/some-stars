@@ -29,8 +29,8 @@
 *   [Clojure](#clojure)
 *   [C#](#c-2)
 *   [Batchfile](#batchfile)
-*   [Stylus](#stylus)
 *   [EJS](#ejs)
+*   [Stylus](#stylus)
 *   [CSS](#css)
 *   [Makefile](#makefile)
 *   [Ruby](#ruby)
@@ -353,6 +353,8 @@
 
 *   [91xusir/91xmind](https://github.com/91xusir/91xmind) - Small toys
 
+*   [jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) -  🦋 A Hexo Theme: Butterfly
+
 *   [HexoPlusPlus/HexoPlusPlus](https://github.com/HexoPlusPlus/HexoPlusPlus) - :gift:基于CloudFlareWorker的无服务器Hexo后端,目标:解决静态博客所有痛点\[文章编辑、图片上传、博主活跃信息统计、博主说说]【学业繁忙，重铸中】
 
 *   [electerm/electerm](https://github.com/electerm/electerm) - 📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC client(linux, mac, win)
@@ -657,17 +659,15 @@
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
-## Stylus
+## EJS
 
-*   [jerryc127/hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly) -  🦋 A Hexo Theme: Butterfly
+*   [ChenYFan/blog](https://github.com/ChenYFan/blog) - 陈YFの博客 - 基于GithubAction+Wexagonal自动部署
+
+## Stylus
 
 *   [anzhiyu-c/hexo-theme-anzhiyu](https://github.com/anzhiyu-c/hexo-theme-anzhiyu) - 安知鱼主题，这是一个简洁美丽的hexo主题。
 
 *   [hexojs/site](https://github.com/hexojs/site) - The website for Hexo. https://hexo.io/
-
-## EJS
-
-*   [ChenYFan/blog](https://github.com/ChenYFan/blog) - 陈YFの博客 - 基于GithubAction+Wexagonal自动部署
 
 ## CSS
 
