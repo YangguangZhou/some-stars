@@ -655,7 +655,7 @@
 
 ## Batchfile
 
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 农友,右上角的Star点一下|玊者荣光翟自动化🤖🔥⛰🎁|7\*24h无人值守自动化农活|代码见dev分支|Python <= 3.12.9(推荐3.7)
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 玊者荣光翟自动化|🤖🔥⛰🎁|农活自动化助手
 
 *   [FongMi/Release](https://github.com/FongMi/Release) -
 
