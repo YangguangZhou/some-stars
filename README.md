@@ -28,10 +28,10 @@
 *   [Markdown](#markdown)
 *   [Clojure](#clojure)
 *   [C#](#c-2)
-*   [Batchfile](#batchfile)
 *   [EJS](#ejs)
 *   [Stylus](#stylus)
 *   [CSS](#css)
+*   [Batchfile](#batchfile)
 *   [Makefile](#makefile)
 *   [Ruby](#ruby)
 *   [Visual Basic .NET](#visual-basic-net)
@@ -52,6 +52,8 @@
 *   [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) - github release、archive以及项目文件的加速项目
 
 *   [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) - 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。免费！免费！免费！
+
+*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 王者荣耀自动化|🤖🎁|农活自动化助手
 
 *   [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) - 文件快递柜-匿名口令分享文本，文件，像拿快递一样取文件（FileCodeBox - File Express Cabinet - Anonymous Passcode Sharing Text, Files, Like Taking Express Delivery for Files）
 
@@ -653,12 +655,6 @@
 
 *   [yiyungent/KnifeHub](https://github.com/yiyungent/KnifeHub) - 🧰 简单易用的效率工具平台
 
-## Batchfile
-
-*   [cndaqiang/autowzry](https://github.com/cndaqiang/autowzry) - 王者荣耀自动化|🤖🔥⛰🎁|农活自动化助手
-
-*   [FongMi/Release](https://github.com/FongMi/Release) -
-
 ## EJS
 
 *   [ChenYFan/blog](https://github.com/ChenYFan/blog) - 陈YFの博客 - 基于GithubAction+Wexagonal自动部署
@@ -676,6 +672,10 @@
 *   [HappySimple/Typora-theme-Happysimple](https://github.com/HappySimple/Typora-theme-Happysimple) - 一款自制的Markdown主题！
 
 *   [LIlGG/halo-theme-sakura](https://github.com/LIlGG/halo-theme-sakura) - Halo 版本的樱花🌸主题
+
+## Batchfile
+
+*   [FongMi/Release](https://github.com/FongMi/Release) -
 
 ## Makefile
 
