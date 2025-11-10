@@ -567,7 +567,7 @@
 
 ## Java
 
-*   [loks666/get\_jobs](https://github.com/loks666/get_jobs) - 💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、拉勾、智联招聘)
+*   [loks666/get\_jobs](https://github.com/loks666/get_jobs) - 💼【AI找工作助手】全平台自动投简历脚本：(boss、前程无忧、猎聘、智联招聘)
 
 *   [javahuang/SurveyKing](https://github.com/javahuang/SurveyKing) - Make a better survey system.
 
