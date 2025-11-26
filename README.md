@@ -147,7 +147,7 @@
 
 *   [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) - 🎉跨平台的剪贴板管理工具 | Cross-platform clipboard management tool
 
-*   [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)
+*   [chatboxai/chatbox](https://github.com/chatboxai/chatbox) - Powerful AI Client
 
 *   [Eugeny/tabby](https://github.com/Eugeny/tabby) - A terminal for a more modern age
 
@@ -243,7 +243,7 @@
 
 *   [m1k1o/neko](https://github.com/m1k1o/neko) - A self hosted virtual browser that runs in docker and uses WebRTC.
 
-*   [certimate-go/certimate](https://github.com/certimate-go/certimate) - An open-source and free self-hosted SSL certificates ACME tool that automates the lifecycle of issuance, deployment, renewal, and notification. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、通知全流程自动化，支持各大主流云厂商。
+*   [certimate-go/certimate](https://github.com/certimate-go/certimate) - An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, and renewal visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期全流程自动化可视化，支持各大主流云厂商。
 
 *   [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel client
 
