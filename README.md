@@ -635,7 +635,7 @@
 
 *   [haiwen/seafile](https://github.com/haiwen/seafile) - Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views
 
-*   [nrootconauto/MrChrootBSD](https://github.com/nrootconauto/MrChrootBSD) - A PRoot like utility for FreeBSD
+*   [aiwnios/MrChrootBSD](https://github.com/aiwnios/MrChrootBSD) - A PRoot like utility for FreeBSD
 
 *   [immortalwrt/immortalwrt](https://github.com/immortalwrt/immortalwrt) - An opensource OpenWrt variant for mainland China users.
 
