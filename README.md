@@ -47,7 +47,7 @@
 
 *   [polywock/globalSpeed](https://github.com/polywock/globalSpeed) - Web extension to set a default speed for video and audio
 
-*   [ahpxex/Aictionary](https://github.com/ahpxex/Aictionary) - 一个桌面词典：快速、简洁，并且真的让你学会英语
+*   [ahpxex/Aictionary](https://github.com/ahpxex/Aictionary) - Another desktop dictionary, but way more faster and definition-rich, which makes you truly understand language.
 
 *   [Akizon77/nezha-dash-v1](https://github.com/Akizon77/nezha-dash-v1) -
 
@@ -235,7 +235,7 @@
 
 *   [nextcloud/server](https://github.com/nextcloud/server) - ☁️ Nextcloud server, a safe home for all your data
 
-*   [klsf/kldns](https://github.com/klsf/kldns) - 快乐二级域名分发系统
+*   [klsf/kldns](https://github.com/klsf/kldns) - KLDNS 是一个面向二级域名分发场景的 DNS 管理系统，适用于主域开放、用户自助申请前缀、解析记录维护、积分控制、审核流和统一运维管理。
 
 *   [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) - The Roundcube Webmail suite
 
